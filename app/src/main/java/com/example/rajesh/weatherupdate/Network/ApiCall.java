@@ -10,7 +10,7 @@ import retrofit2.http.GET;
  */
 
 public interface ApiCall {
-
     @GET("data/2.5/forecast?zip=94040&appid=b1b15e88fa797225412429c1c50c122a1")
+   // @GET("data/2.5/forecast?zip=94040&appid=b1b15e88fa797225412429c1c50c122a1")
     Call<Model> getJSON();
 }
