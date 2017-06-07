@@ -74,7 +74,7 @@ ViewPager viewPager;
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFrag(new Frahone(), "TabOne");
-        adapter.addFrag(new Frahone(), "Tabtwo");
+        adapter.addFrag(new Frahone(), "Tabtest");
 
         viewPager.setAdapter(adapter);
     }
